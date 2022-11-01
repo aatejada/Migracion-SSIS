@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="RTC-3PO.NorthwindDW"
+  DTS:DTSID="{B9C57F2B-5818-474E-9F50-967D7B578DCA}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=RTC-3PO;Initial Catalog=NorthwindDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-ETL-Ejercicio-{B9C57F2B-5818-474E-9F50-967D7B578DCA}RTC-3PO.NorthwindDW;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
